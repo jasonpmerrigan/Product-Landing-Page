@@ -1,0 +1,346 @@
+*{
+  font-family: FuturaPT,sans-serif;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.topDivider{
+  padding: 5px;
+}
+
+
+
+/*Start of Responsive Nav Bar/Header*/
+.header {
+  overflow: hidden;
+  background-color: rgb(248, 248, 248);
+  padding: 20px 10px;
+  position: sticky;
+  top: 0;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.header a:hover {
+  color: red;
+  transition: color 0.2s ease-in;
+}
+
+.header-right {
+  float: right;
+  padding-top: 20px;
+  padding-right: 10px;
+}
+
+.Fender_Video{
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  padding: 30px;
+  
+  /* center the video within the div  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+
+.Fender_Video embed{
+  width: 100% !important;
+  width: 100% !important;
+}
+
+  
+  img {
+    width: 200%;
+    height: 20%;
+    max-width: 200px;
+    float: left;
+  }
+  
+  h2 {
+    font-family: FuturaPT,sans-serif;
+    text-align: center;
+    
+    
+    
+  }
+  /* center multipe divs within a div */
+  /* https://stackoverflow.com/questions/1308011/center-multiple-divs-in-another-div */
+  /* center the amps div  */
+  #Amps{
+     text-align: center;
+  }
+  
+  /* center each divs witin the div */
+  div.Amp_Gallery {
+    display: inline-block;
+    padding: 2%;
+  }
+  
+  div.Amp_Gallery img {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* center multipe divs within a div */
+  /* https://stackoverflow.com/questions/1308011/center-multiple-divs-in-another-div */
+  /* center the amps div  */
+  #Guitars{
+    text-align: center;
+    padding-bottom: 80px;
+ }
+ 
+ /* center each divs witin the div */
+ div.Guitar_Gallery {
+   display: inline-block;
+   padding: 2%;
+ }
+  
+  .More-Info-Button {
+    background-color: #d52b1e;
+    border-color: #d52b1e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 2px;
+    transition: 0.2s;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .More-Info-Button a  {
+    background-color: #d52b1e;
+    border-color: #d52b1e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: px 2px;
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+
+
+
+  .backToTopButton {
+    background-color: rgb(74, 74, 74);
+    border-color: rgb(74, 74, 74);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    transition: 0.2s;
+    border-radius: 4px;
+    padding: 24px 12px 12px;
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    width: 71px;
+    cursor: pointer;
+  }
+
+  .backToTop{
+    /* center a div */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .backToTopButton a  {
+    background-color: rgb(74, 74, 74);
+    border-color: rgb(74, 74, 74);
+    transition: 0.2s;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .backToTopButton:hover {
+    background-color: #b30000;
+  }
+
+  .backToTopButton:hover a {
+    background-color: #b30000;
+  }
+
+  .backToTop{
+    padding: 40px 40px;
+    background-color: rgb(248, 248, 248);
+  }
+
+  .insideBackToTop{
+    margin-top: -80px;
+  }
+
+  .newsletter{
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+  }
+
+
+  £email{
+    border: 1px solid red;
+    text-align: center;
+  }
+
+  input[type="email"]{
+    width: 200px;
+  }
+  
+  .Thumbnail_description {
+    font-family: FuturaPT,sans-serif;
+    padding-top: 200px;
+    color: #000;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+  }
+  
+  .Thumbnail_Description_Guitar {
+    font-family: FuturaPT,sans-serif;
+    padding-top: 200px;
+    color: #000;
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 20px;
+  }
+  
+  .More-Info-Button:hover {
+    background-color: #b30000;
+  }
+
+
+  .SignUpButton {
+    background-color: #d52b1e;
+    border-color: #d52b1e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .SignUpButton a  {
+    background-color: #d52b1e;
+    border-color: #d52b1e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    margin: px 2px;
+    transition: 0.2s;
+    border-radius: 4px;
+  }
+
+
+
+  span{
+    background-color: rgb(74, 74, 74);
+  }
+
+  span a{
+    color: white;
+  }
+
+  .fab{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .social_media_footer :hover{
+    color: #d52b1e;
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+  }
+
+  .social_media_footer{
+    background-color: rgb(248, 248, 248);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* center multiple divs in a div
+    start */
+    display: flex;
+    justify-content: center;
+    /* end */
+  }
+
+  .Contact_Div{
+    /* center multiple divs in a div
+    start */
+    display: flex;
+    justify-content: center;
+    /* end */
+    background-color: rgb(248, 248, 248);
+  }
+
+  /* three seperate divs in one parent div, displaying side by side */
+  .newsletter, .SignUpDiv{
+    display: inline-block;
+  }
+
+  /* /* if a div is appearing inside another one  */
+  /* clear: both; */
+  .WhatsTrendingNow{  
+    padding: 10px;
+  }
+
+
+  
+  /* Start - responsive design */
+  /* When px is 982 or less */
+  
+  @media only screen and (max-width: 982px) {
+
+    div.Guitar_Gallery {
+      padding: 10%;
+    }
+
+    div.Amp_Gallery {
+      padding: 10%;
+    }
+
+  }
+  
